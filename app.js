@@ -5,7 +5,7 @@ const app = express();
 app.use(express.static('public'))
 app.get('/',(req,res,next)=>{
     console.log('req',req)
-    res.sendFile(__dirname + '/views/index.html')
+    res.sendFile(__dirname + '/views/index.html') 
 
 })
 
